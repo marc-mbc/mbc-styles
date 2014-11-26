@@ -1,0 +1,9 @@
+{
+  "name": "Club",
+  "version": "0.0.1",
+  "dependencies": {
+    "normalize-css": "3.0.2",
+    "bourbon": "4.0.2",
+    "neat": "1.7.0"
+  }
+}
