@@ -26,17 +26,11 @@ h2 {
 }
 
 h3 {
-	font-size: em(18px);
+	@extend %hdln-ter;
 }
 
 h4 {
-	margin-top: em(22px, 14px);
-	margin-bottom: em(32px, 14px);
-	color: palette(grey, x-light);
-	text-transform: uppercase;
-	letter-spacing: $letter-space;
-	font-weight: $font-weight--medium;
-	font-size: em(14px);
+	@extend %hdln-quat;
 }
 
 a {

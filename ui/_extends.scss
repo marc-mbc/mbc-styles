@@ -39,12 +39,27 @@
   line-height: (46px/42px);
   margin-top: 0;
 }
+
 %hdln-sec {
   color: palette(grey, light);
   letter-spacing: $letter-space;
   font-weight: $font-weight--thin;
   font-size: em(24px);
   font-family: $font-family--secondary;
+}
+
+%hdln-ter {
+	font-size: em(18px);
+}
+
+%hdln-quat {
+	color: palette(grey, x-light);
+	font-size: em(14px);
+	font-weight: $font-weight--medium;
+	letter-spacing: $letter-space;
+	margin-bottom: em(32px, 14px);
+	margin-top: em(22px, 14px);
+	text-transform: uppercase;
 }
 
 // Buttons
