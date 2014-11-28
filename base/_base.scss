@@ -19,50 +19,6 @@ body {
 
 
 
-h2 {
-	@extend %hdln-sec;
-}
-
-h3 {
-	@extend %hdln-ter;
-}
-
-h4 {
-	@extend %hdln-quat;
-}
-
-a {
-	@extend %a;
-}
-
-p {
-	@extend %p; 
-}
-
-blockquote {
-	@extend %blqt; 
-}
-
-// Lists
-
-ul,
-li {
-	@extend %list; 
-}
-
-// Images
-
-img {
-	@extend %img; 
-}
-
-// Form elements
-
-input, 
-textarea {
-	@extend %form-el; 
-}
-
 
 
 // Button
