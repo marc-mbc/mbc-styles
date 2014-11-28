@@ -19,3 +19,9 @@
     @include doubly(20px);
   }
 }
+
+// removes user agent button outline
+
+button {
+	outline: 0;
+}
