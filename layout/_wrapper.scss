@@ -1,4 +1,4 @@
 main {
-	@include outer-container;
+	@include outer-container(100%);
 	@include pad;
 }
