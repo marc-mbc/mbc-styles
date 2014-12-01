@@ -79,12 +79,6 @@ body {
 	font-size: $base__font-size;
 	font-family: $font-family--primary;
 	line-height: ($base__line/$base__font-size);
-
-	$visual-grid: true !global; 
-$column: 90px !global;
-$gutter: 1px !global;
-$grid-columns: 10 !global;
-$max-width: em(1088) !global;
 }
 
 
