@@ -1,11 +1,11 @@
 @import "../bower_components/bourbon/dist/bourbon";
 @import "../bower_components/neat/app/assets/stylesheets/neat/";
 
-$visual-grid: true;
-$column: 90px;
-$gutter: 1px;
-$grid-columns: 10;
-$max-width: em(1088);
+$visual-grid: true !global; 
+$column: 90px !global;
+$gutter: 1px !global;
+$grid-columns: 10 !global;
+$max-width: em(1088) !global;
 
 // ==========================================================================
 // Normalize Reset
