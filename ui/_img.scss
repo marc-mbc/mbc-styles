@@ -12,9 +12,7 @@
 		border-radius: $br--round;
 		// margin-top: em(24px);
 	}
-	@include m(hero) {
-		@media (min-width: 769px) {
-			margin-bottom: em(42px);
-		}
+	@include m(estab) {
+		width: 100%;
 	}
 }
