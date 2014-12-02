@@ -6,14 +6,14 @@
 
 %panel-default {
 	padding-top: em(30px);
-	@include mq(medium) {
+	@include mq(tablet) {
 		padding-bottom: em(20px);
 	}
 }
 
 %panel-padding {
 	padding-top: em(34px);
-	@include mq(medium) {
+	@include mq(tablet) {
 		padding-top: em(80px);
 		padding-bottom: em(34px);
 	}
@@ -27,7 +27,7 @@
 // Nav Items
 
 %nav-item-horz {
-  @include mq(medium) {
+  @include mq(tablet) {
     display: inline-block;
     margin: 0 em(12px);
   }
@@ -40,7 +40,7 @@
   display: block;
   padding: em(8px, 18px);
   border-bottom: 1px solid transparent;
-  @include mq(small) {
+  @include mq(phone) {
     border-bottom-color: palette(grey, xx-light);
     padding-top: em(14px, 18px);
     padding-bottom: em(14px, 18px);

@@ -18,17 +18,17 @@
 // Media queries
 
 @mixin mq($break) {
-	@if $break == "small" {
+	@if $break == "phone" {
 		@media (min-width: $brkpoint-sm) and (max-width: $brkpoint-md) {
 			@content;
 		}
 	}
-	@else if $break == "medium" {
+	@else if $break == "tablet" {
 		@media (min-width: $brkpoint-md + 1) {
 			@content;
 		}
 	}
-	@else if $break == "large" {
+	@else if $break == "desktop" {
 		@media (min-width: $brkpoint-lg) {
 			@content;
 		}

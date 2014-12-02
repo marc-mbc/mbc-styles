@@ -3,7 +3,7 @@
 // ==========================================================================
 
 .is-collapsed-mobile {
-	@include mq(small) {
+	@include mq(phone) {
 		visibility: collapse;
 		padding: 0;
 		height: 0;
