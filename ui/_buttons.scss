@@ -7,17 +7,17 @@
 }
 
 [class^="btn--"] {
-  @extend %center-align;
-  @extend %btn;
-  margin-bottom: em(20px, 14px); 
-  @include mq(phone) {
-    width: 100%;
-  }
-  @include mq(tablet) { 
-    width: auto;
-    display: inline-block;
-    @include doubly(20px);
-  }
+	@extend %center-align;
+	@extend %btn;
+	margin-bottom: em(20px, 14px); 
+	@include mq(phone) {
+		width: 100%;
+	}
+	@include mq(tablet) { 
+		width: auto;
+		display: inline-block;
+		@include doubly(20px);
+	}
 }
 
 // removes user agent button outline

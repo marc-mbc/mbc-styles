@@ -19,22 +19,41 @@ $letter-space    : 1px;
 
 $white : #fff;
 $black : #0b0b0b;
-$grey  : #797e83;
+$grey  : $limed-spruce;
+//blues
+$pelorous         : #3BBDCA;
+$eastern-blue     : #26A9B5;
+$dodger-blue      : #4A95FF;
+$royal-blue       : #317EEB;
+//violet
+$heliotrope       : #AC59FF;
+$medium-purple    : #953FEB;
+//pink
+$blush-pink       : #FF8AED;
+$lavender-magenta : #EB6CD8;
+//yellow
+$saffron          : #F2C83F;
+$golden-grass     : #DEB328;
+//orange
+$crusta           : #FF7F3B;
+$tango            : #EB6923;
+//greens
+$heliotrope        : #3AC95C;
+$eucalyptus       : #27B548;
+//red
+$flamingo         : #F23F3F;
+$crimson          : #DE2828;
+//greys
+$blue-bayoux      : #546979; 
+$limed-spruce     : #38454F;
 
-$fountain-blue  : #52bab3;
-$emerald        : #5ece7f;
-$sunglo         : #e67478;
-$coral          : #ff784f;
-$purple-majesty : #9279c3;
-$scooter        : #39add1;
-
-//new colours
+//temp colours
 $user           : #AC59FF;
 
 // Color Usage
 
-$color-primary   : $fountain-blue;
-$color-secondary : $scooter;
+$color-primary   : $eastern-blue ;
+$color-secondary : $pelorous;
 $color-accent    : $emerald;
 $color-shadow    : rgba($black, .2);
 
@@ -59,11 +78,11 @@ $color-palettes: (
 // UI Colors
 
 $ui-colors: (
-	default : $fountain-blue,
+	default : $eastern-blue ,
 	success : $emerald,
-	error   : $sunglo,
-	warning : $coral,
-	info    : $purple-majesty
+	error   : $lavender-magenta,
+	warning : $crusta,
+	info    : $golden-grass
 );
 
 

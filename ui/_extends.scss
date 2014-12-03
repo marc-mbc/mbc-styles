@@ -27,29 +27,29 @@
 // Nav Items
 
 %nav-item-horz {
-  @include mq(tablet) {
-    display: inline-block;
-    margin: 0 em(12px);
-  }
+	@include mq(tablet) {
+		display: inline-block;
+		margin: 0 em(12px);
+	}
 }
 
 %nav-item-link {
-  font-weight: $font-weight--light;
-  text-align: center;
-  font-size: em(18px);
-  display: block;
-  padding: em(8px, 18px);
-  border-bottom: 1px solid transparent;
-  @include mq(phone) {
-    border-bottom-color: palette(grey, xx-light);
-    padding-top: em(14px, 18px);
-    padding-bottom: em(14px, 18px);
-  }
+	border-bottom: 1px solid transparent;
+	display: block;
+	font-size: em(18px);
+	font-weight: $font-weight--light;
+	padding: em(8px, 18px);
+	text-align: center;
+	@include mq(phone) {
+		border-bottom-color: palette(grey, xx-light);
+		padding-bottom: em(14px, 18px);
+		padding-top: em(14px, 18px);
+	}
 }
 
 %nav-item-on {
-  color: palette(black);
-  border-color: $color-primary;
+	border-color: $color-primary;
+	color: palette(black);
 }
 
 // Headlines
@@ -153,35 +153,35 @@
 // Buttons
 
 %btn {
-  padding: 15px 30px;
-  border: 0;
-  border-radius : $br--default;
-  color: $white;
-  text-transform: uppercase;
-  font-size : em(14px);
-  font-weight: $font-weight--medium;
-  transition: opacity $trns-duration;
-  display: block;
-  &:hover {
-    opacity: .75;
-  }
-  &:active {
-    opacity: initial;
-  }
+	border-radius : $br--default;
+	border: 0;
+	color: $white;
+	display: block;
+	font-size : em(14px);
+	font-weight: $font-weight--medium;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	transition: opacity $trns-duration;
+	&:hover {
+		opacity: .75;
+	}
+	&:active {
+		opacity: initial;
+	}
 }
 
 // Icons
 
 %icn--ui {
-	line-height: 0;
 	cursor: pointer;
+	line-height: 0;
 }
 
 //main cards
 %card {
 	background: #fff;
-	border: 1px solid;
 	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+	border: 1px solid;
 	box-shadow: 0 1px 1px rgba(0,0,0,.1);
 	clear: both;
 	display: block;

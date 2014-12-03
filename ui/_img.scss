@@ -8,9 +8,8 @@
 		padding: em(12px);
 	}
 	@include m(avatar) {
-		display: block;
 		border-radius: $br--round;
-		// margin-top: em(24px);
+		display: block;
 	}
 	@include m(estab) {
 		width: 100%;
