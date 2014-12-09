@@ -1,5 +1,5 @@
 @import "../bower_components/bourbon/dist/bourbon";
-@import "../bower_components/neat/app/assets/stylesheets/neat/";
+@import "../bower_components/neat/app/assets/stylesheets/neat";
 
 
 @import "../bower_components/neat/app/assets/stylesheets/neat-helpers"; // or "neat-helpers" when in Rails
@@ -7,7 +7,7 @@
 // ==========================================================================
 // Normalize Reset
 // ==========================================================================
-@import "../bower_components/normalize-css/normalize/";
+@import "../bower_components/normalize-css/normalize";
 
 // ==========================================================================
 // Base Styles for club
