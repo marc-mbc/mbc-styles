@@ -40,6 +40,7 @@
 	font-weight: $font-weight--light;
 	padding: em(8px, 18px);
 	text-align: center;
+	text-decoration: none;
 	@include mq(phone) {
 		border-bottom-color: palette(grey, xx-light);
 		padding-bottom: em(14px, 18px);
@@ -182,6 +183,10 @@
 	height: em(65px);
 	padding: em(10px) em(20px);
 	width: em(65px);
+	&:hover,
+	&:active  {
+		opacity: .7;
+	}
 }
 
 // Icons
