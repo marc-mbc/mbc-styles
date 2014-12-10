@@ -182,7 +182,7 @@
 	font-size : em(14px);
 	height: em(70px);
 	padding: em(10px) em(20px);
-	@include transition(opacity .5s ease-in-out);
+	// @include transition(opacity .5s ease-in-out);
 	width: em(70px);
 	&:hover,
 	&:active  {
