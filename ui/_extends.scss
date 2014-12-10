@@ -180,10 +180,10 @@
 	color: $white;
 	display: inline-block;
 	font-size : em(14px);
-	height: em(65px);
+	height: em(70px);
 	padding: em(10px) em(20px);
-	@include transition(all 1s $ease-in-circ);
-	width: em(65px);
+	@include transition(all 500ms $ease-in-quint);
+	width: em(70px);
 	&:hover,
 	&:active  {
 		opacity: .7;
