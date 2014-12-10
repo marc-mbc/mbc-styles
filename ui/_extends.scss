@@ -74,20 +74,13 @@
 }
 
 %hdln-ter {
+	color: palette(grey, x-dark);
 	display: block;
 	font-size: em(18px);
-}
-
-%hdln-quat {
-	color: palette(grey, x-light);
-	display: block;
-	font-size: em(14px);
-	font-weight: $font-weight--medium;
-	letter-spacing: $letter-space;
-	margin-bottom: em(32px, 14px);
-	margin-top: em(22px, 14px);
+	font-weight: $font-weight--bold;
 	text-transform: uppercase;
 }
+
 
 // links
 
@@ -182,7 +175,7 @@
 	font-size : em(14px);
 	height: em(70px);
 	padding: em(10px) em(20px);
-	@include transition(all 500ms ease-in-out);
+	@include transition(all 250ms ease-in-out);
 	width: em(70px);
 	&:hover,
 	&:active  {
