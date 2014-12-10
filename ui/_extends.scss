@@ -76,7 +76,7 @@
 %hdln-ter {
 	color: palette(grey, dark);
 	display: block;
-	font-size: em(18px);
+	font-size: em(20px);
 	font-weight: $font-weight--ultra-bold;
 	text-transform: uppercase;
 }
@@ -178,7 +178,7 @@
 	width: em(70px);
 	&:hover,
 	&:active  {
-		opacity: .85;
+		opacity: .95;
 	}
 }
 
