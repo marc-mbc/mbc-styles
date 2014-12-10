@@ -2,6 +2,13 @@
 // Buttons
 // ==========================================================================
 
+// removes user agent button outline
+button {
+	outline: 0;
+}
+
+//plain 'ol buttons
+
 .btn {
   @include bg-colors($ui-colors);
 }
@@ -20,8 +27,16 @@
 	}
 }
 
-// removes user agent button outline
 
-button {
-	outline: 0;
+
+// round shaped buttons
+
+.rnd-btn {
+  @include bg-colors($ui-colors);
+}
+
+[class^="rnd-btn--"] {
+	@extend %center-align;
+	@extend %rnd-btn;
+	margin-bottom: em(20px, 14px); 
 }
