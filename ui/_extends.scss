@@ -182,6 +182,7 @@
 	font-size : em(14px);
 	height: em(65px);
 	padding: em(10px) em(20px);
+	@include transition(all 1s $ease-in-circ);
 	width: em(65px);
 	&:hover,
 	&:active  {
