@@ -157,7 +157,7 @@
 	text-transform: uppercase;
 	transition: opacity $trns-duration;
 	&:hover {
-		opacity: .75;
+		opacity: .85;
 	}
 	&:active {
 		opacity: initial;
@@ -172,14 +172,13 @@
 	box-shadow: 0px 1px 2px 1px rgba(0,0,0,.12);
 	color: $white;
 	display: inline-block;
-	font-size : em(14px);
 	height: em(70px);
 	padding: em(10px) em(20px);
 	@include transition(all 250ms ease-in-out);
 	width: em(70px);
 	&:hover,
 	&:active  {
-		opacity: .7;
+		opacity: .85;
 	}
 }
 
