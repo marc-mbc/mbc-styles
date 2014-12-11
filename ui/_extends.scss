@@ -65,7 +65,7 @@
 }
 
 %hdln-sec {
-	color: palette(grey, light);
+	color: palette(grey, dark);
 	display: block;
 	font-family: $font-family--secondary;
 	font-size: em(24px);
@@ -74,7 +74,7 @@
 }
 
 %hdln-ter {
-	color: palette(grey, dark);
+	color: palette(grey, base);
 	display: block;
 	font-size: em(20px);
 	font-weight: $font-weight--ultra-bold;
@@ -85,25 +85,29 @@
 // links
 
 %a {
-	color: palette(grey, dark); 
-	text-decoration: none;
+	color: $dodger-blue ; 
 	font-weight: $font-weight--medium;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 // paragraph
 
 %p {
-	margin: 0 0 em(30px, 18px);
-	font-weight: $font-weight--light;
+	color: palette(grey, light);
 	font-size: em(18px);
+	font-weight: $font-weight--light;
 	line-height: (27px/18px);
+	margin: 0 0 em(30px, 18px);
 }
 
 // blockquote
 
 %blqt {
 	@media (min-width: 769px) {
-		border-left: em(8px, 24px) solid palette(grey, xx-light); 
+		border-left: em(8px, 24px) solid palette(grey, x-light); 
 		font-size: em(24px);
 		margin: em(32px, 24px) 0;
 		padding: 0 0 0 5%;
@@ -116,9 +120,10 @@
 //lists
 
 %list {
+	color: palette(grey, xx-light);
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	list-style-type: none;
 }
 
 //images
