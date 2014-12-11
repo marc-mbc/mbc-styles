@@ -183,7 +183,9 @@
 	width: em(70px);
 	&:hover,
 	&:active  {
-		opacity: .95;
+		i {
+			transform: scale(.9);
+		}
 	}
 }
 
