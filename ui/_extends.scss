@@ -192,9 +192,8 @@
 //main cards
 %card {
 	background: #fff;
-	border: 1px solid;
-	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
-	box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	border-radius: em(5px);
+	box-shadow: 0 .2em 0 0 #d4d4d5,0 0 0 1px palette(grey, xx-light);
 	clear: both;
 	display: block;
 }
