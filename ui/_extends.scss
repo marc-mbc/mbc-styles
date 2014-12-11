@@ -56,7 +56,7 @@
 // Headlines
 
 %hdln-prim {
-	color: palette(grey, x-dark);
+	color: palette(black, dark);
 	display: block;
 	font-size: em(42px);
 	font-weight: $font-weight--light;
@@ -65,7 +65,7 @@
 }
 
 %hdln-sec {
-	color: palette(grey, dark);
+	color: palette(black, base);
 	display: block;
 	font-family: $font-family--secondary;
 	font-size: em(24px);
@@ -74,7 +74,7 @@
 }
 
 %hdln-ter {
-	color: palette(grey, base);
+	color: palette(black, base);
 	display: block;
 	font-size: em(20px);
 	font-weight: $font-weight--ultra-bold;
@@ -96,7 +96,7 @@
 // paragraph
 
 %p {
-	color: palette(grey, light);
+	color: palette(grey, base);
 	font-size: em(18px);
 	font-weight: $font-weight--light;
 	line-height: (27px/18px);
