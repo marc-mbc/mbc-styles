@@ -154,7 +154,7 @@
 %btn {
 	border-radius : $br--default;
 	border: 0;	
-	box-shadow: 0 6px #ab3c3c;
+	box-shadow: 0 6px rgba(0, 0, ,0, .35);
 	color: $white;
 	display: inline-block;
 	font-size : em(14px);
@@ -165,28 +165,22 @@
 	text-transform: uppercase;
 
 	&:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-
+		content: '';
+		position: absolute;
+		z-index: -1;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
 	}
 	&:hover {
-
+		box-shadow: 0 4px rgba(0, 0, ,0, .35);
 		color: $white;
-
-		box-shadow: 0 4px #ab3c3c;
-	top: 2px;
+		top: 2px;
 	}
 	&:active {
-
-
+		box-shadow: 0 0 rgba(0, 0, ,0, .35);
 		color: $white;
-
-			box-shadow: 0 0 #ab3c3c;
-	top: 6px;
+		top: 6px;
 	}
 	//in case it's an anchor
 	&:visited {
