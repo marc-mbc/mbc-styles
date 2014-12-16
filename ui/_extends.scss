@@ -154,7 +154,7 @@
 %btn {
 	border-radius : $br--default;
 	border: 0;	
-	box-shadow: inset 0 -0.35em rgba(0, 0, 0, .35);
+	box-shadow: 0 6px #ab3c3c;
 	color: $white;
 	display: inline-block;
 	font-size : em(14px);
@@ -170,6 +170,7 @@
 		-webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
 		transition: all 0.3s;
+
 	}
 	&:hover {
 		box-shadow: 0 4px rgba(0,0,0,.12);
