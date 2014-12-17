@@ -60,20 +60,21 @@
 	}
 }
 
-// Generates embossed buttons
+
+
+// Generates embossed button modifiers, theming and box shadow
+
 @mixin btn-emb($map) {
 	@each $theme, $color in $map {
 		&--#{$theme} {
 			background-color: $color;
-			box-shadow: 0 5px darken($color, 25);
+			box-shadow: 0 6px darken($color, 15);
 			&:hover {
-				box-shadow: 0 3px darken($color, 25);
-				color: $white;
+				box-shadow: 0 4px darken($color, 15);
 				top: 2px;
 			} 
 			&:active {
-				box-shadow: 0 3px darken($color, 25);
-				color: $white;
+				box-shadow: 0 0 darken($color, 15);
 				top: 6px;
 			}
 		}		

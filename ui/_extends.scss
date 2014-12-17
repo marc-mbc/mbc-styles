@@ -162,11 +162,6 @@
 	padding: em(15px) em(30px);
 	position: relative;
 	text-transform: uppercase;
-	transition: all 0.3s;
-	&:hover,
-	&:active {
-		opacity: .95;
-	}
 	//in case it's an anchor
 	&:visited {
 		color: $white;

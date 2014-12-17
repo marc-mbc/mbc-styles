@@ -16,6 +16,11 @@ button {
 [class^="btn--"] {
 	@extend %center-align;
 	@extend %btn;
+	transition: all 0.3s;
+	&:hover,
+	&:active {
+		opacity: .95;
+	}
 	margin-bottom: em(20px, 14px); 
 	@include mq(phone) {
 		width: 100%;
