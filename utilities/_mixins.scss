@@ -60,6 +60,25 @@
 	}
 }
 
+// Generates embossed buttons
+@mixin btn-emb($map) {
+	@each $theme, $color in $map {
+		&--#{$theme} {
+			background-color: $color;
+			&:hover {
+				box-shadow: 0 4px darken($color, 25);
+				color: $white;
+				top: 2px;
+			} 
+			&:active {
+				box-shadow: 0 4px darken($color, 25);
+				color: $white;
+				top: 6px;
+			}
+		}		
+	}
+}
+
 // Generating :before or :after pseudo-element shapes
 
 @mixin p-el(

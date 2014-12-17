@@ -11,18 +11,7 @@ button {
 
 .btn {
   @include bg-colors($ui-colors);
-	&:hover {
-		box-shadow: 0 3px darken($color, 25);
-		color: $white;
-		top: 2px;
-	}
-	&:active {
-		box-shadow: 0 0 rgba(0,0,0,.35);
-		color: $white;
-		top: 6px;
-	}
 }
-
 
 [class^="btn--"] {
 	@extend %center-align;
@@ -39,6 +28,34 @@ button {
 }
 
 
+//embossed buttons
+
+.btn-emb {
+  @include bg-colors($ui-colors);
+}
+
+[class^="btn-emb--"] {
+	@extend %center-align;
+	@extend %btn;
+	margin-bottom: em(20px, 14px); 
+	@include mq(phone) {
+		width: 100%;
+	}
+	@include mq(tablet) { 
+		width: auto;
+		display: inline-block;
+		@include doubly(20px);
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+}
+
 
 // round shaped buttons
 
@@ -51,3 +68,5 @@ button {
 	@extend %rnd-btn;
 	margin-bottom: em(20px, 14px); 
 }
+
+
