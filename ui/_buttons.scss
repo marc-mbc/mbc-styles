@@ -32,6 +32,7 @@ button {
 	}
 }
 
+
 //embossed buttons
 
 .btn-emb {
@@ -41,6 +42,7 @@ button {
 [class^="btn-emb--"] {
 	@extend %center-align;
 	@extend %btn; 
+	margin-bottom: em(20px, 14px); 
 	@include mq(phone) {
 		width: 100%;
 	}
@@ -59,6 +61,7 @@ button {
 	}
 }
 
+
 // round shaped buttons
 
 .rnd-btn {
@@ -68,7 +71,6 @@ button {
 [class^="rnd-btn--"] {
 	@extend %center-align;
 	@extend %rnd-btn;
-	margin-bottom: em(20px, 14px); 
 }
 
 
