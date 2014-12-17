@@ -154,7 +154,6 @@
 %btn {
 	border-radius : $br--default;
 	border: 0;	
-	box-shadow: 0 5px rgba(0,0,0,.35);
 	color: $white;
 	display: inline-block;
 	font-size : em(14px);
@@ -163,6 +162,7 @@
 	padding: em(15px) em(30px);
 	position: relative;
 	text-transform: uppercase;
+	transition: opacity 500ms;
 	&:hover {
 		box-shadow: 0 4px rgba(0,0,0,.35);
 		color: $white;
