@@ -19,7 +19,7 @@ button {
 	transition: all 0.3s;
 	&:hover,
 	&:active {
-		opacity: .95;
+		opacity: .85;
 	}
 	margin-bottom: em(20px, 14px); 
 	@include mq(phone) {
@@ -41,8 +41,7 @@ button {
 
 [class^="btn-emb--"] {
 	@extend %center-align;
-	@extend %btn;
-	margin-bottom: em(20px, 14px); 
+	@extend %btn; 
 	@include mq(phone) {
 		width: 100%;
 	}
