@@ -154,7 +154,7 @@
 %btn {
 	border-radius : $br--default;
 	border: 0;	
-	box-shadow: 0 6px rgba(0, 0, ,0, .35);
+	box-shadow: 0 6px rgba(0,0,0,.35);
 	color: $white;
 	display: inline-block;
 	font-size : em(14px);
@@ -173,12 +173,12 @@
 		transition: all 0.3s;
 	}
 	&:hover {
-		box-shadow: 0 4px rgba(0, 0, ,0, .35);
+		box-shadow: 0 4px rgba(0,0,0,.35);
 		color: $white;
 		top: 2px;
 	}
 	&:active {
-		box-shadow: 0 0 rgba(0, 0, ,0, .35);
+		box-shadow: 0 0 rgba(0,0,0,.35);
 		color: $white;
 		top: 6px;
 	}
