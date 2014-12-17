@@ -171,16 +171,15 @@
 // Round shaped buttons
 
 %rnd-btn {
-	border: 0;
+	@include transition(all 250ms ease-in-out);
 	border-radius: $br--round;
+	border: 0;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 	color: $white;
 	display: inline-block;
 	height: 56px;
 	overflow: hidden;
 	position: relative;
-	transition-delay: 0.2s;
-	transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 	width: 56px;
 	&:hover,
 	&:active  {
