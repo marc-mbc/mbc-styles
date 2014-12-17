@@ -162,16 +162,10 @@
 	padding: em(15px) em(30px);
 	position: relative;
 	text-transform: uppercase;
-	transition: opacity 500ms;
-	&:hover {
-		box-shadow: 0 4px rgba(0,0,0,.35);
-		color: $white;
-		top: 2px;
-	}
+	transition: all 0.3s;
+	&:hover,
 	&:active {
-		box-shadow: 0 0 rgba(0,0,0,.35);
-		color: $white;
-		top: 6px;
+		opacity: .95;
 	}
 	//in case it's an anchor
 	&:visited {

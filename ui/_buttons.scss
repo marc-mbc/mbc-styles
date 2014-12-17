@@ -37,7 +37,6 @@ button {
 [class^="btn-emb--"] {
 	@extend %center-align;
 	@extend %btn;
-	border-radius: 0 0 5px 5px;
 	margin-bottom: em(20px, 14px); 
 	@include mq(phone) {
 		width: 100%;
