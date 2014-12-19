@@ -1,8 +1,11 @@
 {
-  "name": "club-styles",
+  "name": "bdgt-styles",
   "version": "0.0.1",
-  "description": "The club styles",
-  "repository": "https://bitbucket.org/budgetplaces/club-styles",
+  "description": "Forked from The club styles",
+  "repository": "https://bitbucket.org/bdgt-mrjpg/bdgt-styles",
   "dependencies": {
+  },
+  "scripts" : { 
+	"postinstall" : "bower install"
   }
 }
