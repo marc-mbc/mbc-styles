@@ -1,8 +1,8 @@
 {
-  "name": "bdgt-styles",
+  "name": "mbc-styles",
   "version": "0.0.3",
   "description": "Forked from The club styles",
-  "repository": "https://bitbucket.org/bdgt-mrjpg/bdgt-styles",
+  "repository": "https://github.com/marc-mbc/mbc-styles.git",
   "dependencies": {},
   "scripts": {
     "postinstall": "bower install"
